@@ -1,5 +1,5 @@
 # Gulp 4 with Webpack
-This is the demo repo for the [CSS Tricks article]().
+This is the demo repo for the [CSS Tricks article](https://css-tricks.com/combine-webpack-gulp-4).
 
 ## How to use
 Download the repo and run:
