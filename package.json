@@ -3,8 +3,8 @@
   "version": "1.0.0",
   "description": "A modern ES6 Gulp workflow combined with Webpack",
   "scripts": {
-    "dev": "gulp --require babel-register --gulpfile tasks",
-    "build": "NODE_ENV=production gulp build --require babel-register --gulpfile tasks"
+    "dev": "gulp --require @babel/register --gulpfile tasks",
+    "build": "gulp build --require @babel/register --gulpfile tasks"
   },
   "babel": {
     "presets": [
@@ -22,6 +22,7 @@
   "dependencies": {
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
     "browser-sync": "^2.26.3",
     "gulp": "^4.0.0",
     "webpack": "^4.30.0",
