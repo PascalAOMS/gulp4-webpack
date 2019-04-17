@@ -23,6 +23,7 @@
     "@babel/core": "^7.4.3",
     "@babel/preset-env": "^7.4.3",
     "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
     "webpack": "^4.30.0",
     "webpack-dev-middleware": "^3.6.2"
   }
