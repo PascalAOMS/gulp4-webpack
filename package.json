@@ -6,12 +6,6 @@
     "dev": "gulp --require @babel/register --gulpfile tasks",
     "build": "gulp build --require @babel/register --gulpfile tasks"
   },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "babelrc": false
-  },
   "repository": {
     "type": "git",
     "url": "https://github.com/pascalaoms/gulp4-webpack"
