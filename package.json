@@ -3,14 +3,8 @@
   "version": "1.0.0",
   "description": "A modern ES6 Gulp workflow combined with Webpack",
   "scripts": {
-    "dev": "gulp --require babel-register --gulpfile tasks",
-    "build": "NODE_ENV=production gulp build --require babel-register --gulpfile tasks"
-  },
-  "babel": {
-    "presets": [
-      "es2015"
-    ],
-    "babelrc": false
+    "dev": "gulp --require @babel/register --gulpfile tasks",
+    "build": "gulp build --require @babel/register --gulpfile tasks"
   },
   "repository": {
     "type": "git",
@@ -18,12 +12,14 @@
   },
   "author": "Pascal Klau",
   "license": "MIT",
-  "devDependencies": {
-    "babel-core": "^6.24.1",
-    "babel-preset-es2015": "^6.24.1",
-    "browser-sync": "^2.18.8",
-    "gulp": "github:gulpjs/gulp#4.0",
-    "webpack": "^2.4.1",
-    "webpack-dev-middleware": "^1.10.2"
+  "devDependencies": {},
+  "dependencies": {
+    "@babel/core": "^7.4.3",
+    "@babel/preset-env": "^7.4.3",
+    "@babel/register": "^7.4.0",
+    "browser-sync": "^2.26.3",
+    "gulp": "^4.0.0",
+    "webpack": "^4.30.0",
+    "webpack-dev-middleware": "^3.6.2"
   }
 }
